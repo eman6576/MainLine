@@ -1,0 +1,5 @@
+MainLine:
+  image: ibmcom/swift-ubuntu:latest
+  volumes:
+    - .:/root/SwiftEnv
+  command: bash -c "cd /root/MainLine && swift build && swift test"
