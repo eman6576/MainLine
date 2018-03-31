@@ -24,7 +24,7 @@ project:
 	swift package generate-xcodeproj
 
 open_xcodeproj:
-	open SGCircuitBreaker.xcodeproj
+	open MainLine.xcodeproj
 
 build:
 	swift build --disable-sandbox -c release -Xswiftc -static-stdlib
